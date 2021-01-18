@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.AppBase.Menu"
+                  xmlns:local="clr-namespace:PCC.AppBase">
+    <MasterDetailPage.Master >
+        <ContentPage Title="Menu">
+            <StackLayout x:Name="StackMenu">
+                <Label Text="Xenartras" FontAttributes="Bold" Padding="10" TextColor="#C76702" HorizontalOptions="Start"/>
+                <Button x:Name="btnInicio" Text="Início"  BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="VoltarAoInicio"/>
+                <Button x:Name="btnAnimais" Text="Animais"  BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="AbrirAnimais"/>
+                <Button x:Name="btnCatalogo" Text="Catálogo"  BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="AbrirCatalogo"/>
+                <Button x:Name="btnEnviarDados" Text="Enviar Dados"   BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="AbrirInserirDados"/>
+                <Button x:Name="btnMeusEnvios" Text="Meus envios"  BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="AbrirMeusEnvios"/>
+                <Button x:Name="btnAdministrar" Text="Administrar" BackgroundColor="#dbb407" BorderWidth="1" Margin="10, 0.5" Clicked="AbrirAdmin"/>
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <Grid ColumnSpacing="0" RowSpacing="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"  />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnCadastro" Text="Cadastro" HorizontalOptions="Start" BackgroundColor="White" BorderColor="#dbb999" BorderWidth="1" Margin="10, 10" Clicked="AbrirCadastro" />
+                        <Button x:Name="btnLogin" Text="Login" HorizontalOptions="End" BackgroundColor="White" BorderColor="#dbb999" BorderWidth="1" Margin="10" VerticalOptions="EndAndExpand" Clicked="AbrirLogin" />
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage x:Name="DetailNavPage">
+            <x:Arguments>
+                <local:Inicio/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

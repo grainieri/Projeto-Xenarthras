@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.InserirMaisDetalhes">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="20" Text="Tem mais algum detalhe que deseja adicionar?"
+                   Padding="10" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"/>
+            <Label x:Name="TxtMensagens" HorizontalOptions="Center" Text="" TextColor="Red"/>
+            <Editor x:Name="txtComentario" Placeholder="Ex.: O estado físico do animal, onde ele se encontra exatamente, algum dado para contato, etc."
+                    WidthRequest="70" HeightRequest="70" MaxLength="120" VerticalOptions="FillAndExpand" TextColor="Black"
+                    Margin="5, 5"/>
+            <Button VerticalOptions="End" Text="Enviar Dados" Padding="10" Clicked="EnviarDados"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

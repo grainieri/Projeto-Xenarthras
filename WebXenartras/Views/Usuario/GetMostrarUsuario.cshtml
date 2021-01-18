@@ -1,0 +1,31 @@
+﻿@model WebXenartras.Models.Usuario
+
+<h2>Pesquisar Usuário por Email </h2>
+<form method="get" asp-action="GetMostrarUsuario">
+    <div class="form-group">
+        <label for="usu_Email">Email:</label>
+        <input class="form-control" name="usu_Email" />
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Pesquisar</button>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <h2>Aparição</h2>
+    <table cellpadding="10" cellspacing="5" border="0">
+        <tr>
+            <th>ID: </th>
+            <th>Email: </th>
+            <th>Senha: </th>
+            <th>Status: </th>
+        </tr>
+        <tr>
+            <td>@Model.usu_ID</td>
+            <td>@Model.usu_Email</td>
+            <td>@Model.usu_Senha</td>
+            <td>@Model.usu_Status</td>
+        </tr>
+    </table>
+}

@@ -1,0 +1,41 @@
+﻿@model WebXenartras.Models.Aparicao
+
+<h2>Mostrar Aparição por ID </h2>
+<form method="get" asp-action="MostrarAparicao">
+    <div class="form-group">
+        <label for="apa_ID">Id:</label>
+        <input class="form-control" name="apa_ID" />
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Mostrar</button>
+    </div>
+</form>
+
+@if (Model != null)
+{
+    <h2>Aparição</h2>
+    <table cellpadding="10" cellspacing="5" border="0">
+        <tr>
+            <th>ID: </th>
+            <th>ID do usuário: </th>
+            <th>Data: </th>
+            <th>Status: </th>
+            <th>Espécie do animal: </th>
+            <th>Latitude: </th>
+            <th>Longitude: </th>
+            <th>Comentário: </th>
+
+        </tr>
+        <tr>
+            <td>@Model.apa_ID</td>
+            <td>@Model.usu_ID</td>
+            <td>@Model.apa_Data</td>
+            <td>@Model.apa_Status</td>
+            <td>@Model.ani_Especie</td>
+            <td>@Model.apa_Latitude</td>
+            <td>@Model.apa_Longitude</td>
+            <td>@Model.apa_Comentario</td>
+            <td><a asp-action="AtualizarAparicao" asp-route-id="@Model.apa_ID">Atualizar</a></td>
+        </tr>
+    </table>
+}

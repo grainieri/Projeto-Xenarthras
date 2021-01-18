@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.InserirLocalização">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="20" Text="Agora informe sua localização."
+                   Padding="20" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"/>
+            <Grid x:Name="GridMapa" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            </Grid>
+            <Button x:Name="BtnLocal" Text="Pegar Localização" VerticalOptions="End" Padding="10" IsVisible="false"/>
+            <Button VerticalOptions="End" Text="Adicionar localização" 
+                    Padding="10" Clicked="AbrirInserirDetalhes"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

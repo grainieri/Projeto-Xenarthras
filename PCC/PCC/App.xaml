@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Cores-->
+            <Color x:Key="BarBackgroundColorLight">#08A80D</Color>
+            <Color x:Key="BarBackgroundColorDark">#018012</Color>
+
+            <Color x:Key="PageBackgroundColorLight">White</Color>
+            <Color x:Key="PageBackgroundColorDark">#3E3E3E</Color>
+
+            <Color x:Key="BackgroundColorLight">#FFFFFF</Color>
+            <Color x:Key="BackgroundColorDark">#3E3E3E</Color>
+
+            <Color x:Key="LabelTextColorLight">Black</Color>
+            <Color x:Key="LabelTextColorDark">White</Color>
+            
+            <Color x:Key="ButtonTextColorLight">Black</Color>
+            <Color x:Key="ButtonTextColorDark">#3E3E3E</Color>
+
+            <Color x:Key="ButtonBackgroundColorLight">LightGray</Color>
+            <Color x:Key="ButtonBackgroundColorDark">White</Color>
+
+            <!--Páginas-->
+            <Style TargetType="Page" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource PageBackgroundColorLight}, Dark={StaticResource PageBackgroundColorDark}}"/>
+            </Style>
+            <Style TargetType="NavigationPage">
+                <Setter Property="NavigationPage.BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource BarBackgroundColorLight}, Dark={StaticResource BarBackgroundColorDark}}"/>
+            </Style>
+            <Style TargetType="TabbedPage" ApplyToDerivedTypes="True">
+                <Setter Property="BarBackgroundColor" Value="{AppThemeBinding Light={StaticResource BarBackgroundColorLight}, Dark={StaticResource BarBackgroundColorDark}}"/>
+            </Style>
+
+            <!--Controles-->
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource LabelTextColorLight}, Dark={StaticResource LabelTextColorDark}}"/>
+            </Style>
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource ButtonBackgroundColorLight}, Dark={StaticResource ButtonBackgroundColorDark}}"/>
+                <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource ButtonTextColorLight}, Dark={StaticResource ButtonTextColorDark}}"/>
+            </Style>
+            <Style TargetType="Editor">
+                <Setter Property="PlaceholderColor" Value="{AppThemeBinding Light={StaticResource ButtonBackgroundColorLight}, Dark={StaticResource ButtonBackgroundColorDark}}"/>
+            </Style>
+
+        </ResourceDictionary>
+        <DataTemplate x:Key="AnimalTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width=".5*" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.RowSpan="2" 
+                       Source="{Binding ani_UrlImagem}" 
+                       Aspect="AspectFill"
+                       HeightRequest="60" 
+                       WidthRequest="60" />
+                <Label Grid.Column="1" 
+                       Grid.ColumnSpan="2"
+                       Text="{Binding ani_Nome}" 
+                       FontAttributes="Bold" />
+                <Label Grid.Row="1"
+                       Grid.Column="1" 
+                       Grid.ColumnSpan="2"
+                       Text="{Binding ani_NomeCientifico}"
+                       FontAttributes="Italic" 
+                       VerticalOptions="End"/>
+            </Grid>
+        </DataTemplate>
+        <DataTemplate x:Key="EnviosTemplate">
+            <Grid Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Image Grid.RowSpan="3" 
+                       Source="{Binding ani_UrlImagem}" 
+                       Aspect="AspectFill"
+                       HeightRequest="60" 
+                       WidthRequest="60" />
+                <Label Grid.Column="1" 
+                       Grid.ColumnSpan="2"
+                       Text="{Binding ani_Nome}" 
+                       FontAttributes="Bold" />
+                <Label Grid.Column="1" 
+                       Grid.Row="2"
+                       Text="{Binding ani_Localizacao}" 
+                       FontAttributes="Italic"
+                       FontSize="Small"/>
+                <Label Grid.Column="3" 
+                       Grid.Row="2"
+                       Text="{Binding ani_Status}" 
+                       FontAttributes="Italic"
+                       FontSize="Micro"
+                       HorizontalOptions="End"/>
+            </Grid>
+        </DataTemplate>
+    </Application.Resources>
+</Application>

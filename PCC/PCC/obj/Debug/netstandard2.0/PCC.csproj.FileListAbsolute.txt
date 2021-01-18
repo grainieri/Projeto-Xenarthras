@@ -1,0 +1,126 @@
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.deps.json
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csprojAssemblyReference.cache
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfoInputs.cache
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfo.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirFoto.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirLocalização.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirMaisDetalhes.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Dev\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CopyComplete
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CoreCompileInputs.cache
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Catalogo.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Login.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\PCC.deps.json
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.csprojAssemblyReference.cache
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Catalogo.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirFoto.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirLocalização.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirMaisDetalhes.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Login.xaml.g.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfoInputs.cache
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfo.cs
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CoreCompileInputs.cache
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CopyComplete
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC - Backups\PCC 0.5.0\PCC\PCC\obj\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.deps.json
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Dev\PCC\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csprojAssemblyReference.cache
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Cadastro.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Catalogo.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalhePreguica.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalheTamandua.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalheTatu.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirFoto.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirLocalização.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirMaisDetalhes.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Login.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\MeusEnvios.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PaginaAnimais.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfoInputs.cache
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfo.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CoreCompileInputs.cache
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CopyComplete
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.dll
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.pdb
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\GerenciarAparicao.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PaginaAdmin.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\ListaAdminAparicoes.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PesquisaAparicao.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PesquisaUsuario.xaml.g.cs
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.Utility.Language.Messages.resources
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.GenerateResource.cache
+C:\Dev\PCC\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\VerFoto.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.deps.json
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.dll
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\PCC.pdb
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Dev\Github\PCC\PCC\PCC\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csprojAssemblyReference.cache
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.Utility.Language.Messages.resources
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.GenerateResource.cache
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Inicio.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Cadastro.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Catalogo.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalhePreguica.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalheTamandua.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\DetalheTatu.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\GerenciarAparicao.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirFoto.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirLocalização.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\InserirMaisDetalhes.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\ListaAdminAparicoes.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\Login.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\MeusEnvios.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PaginaAdmin.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PaginaAnimais.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PesquisaAparicao.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\PesquisaUsuario.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\Paginas\VerFoto.xaml.g.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfoInputs.cache
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.AssemblyInfo.cs
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CoreCompileInputs.cache
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.csproj.CopyComplete
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.dll
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\ref\PCC.dll
+C:\Dev\Github\PCC\PCC\PCC\obj\Debug\netstandard2.0\PCC.pdb

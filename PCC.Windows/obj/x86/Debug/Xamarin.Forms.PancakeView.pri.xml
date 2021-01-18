@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Xamarin.Forms.PancakeView" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<ResourceMapSubtree name="Xamarin.Forms.PancakeView">
+				<NamedResource name="Xamarin.Forms.PancakeView.xr.xml" uri="ms-resource://Xamarin.Forms.PancakeView/Files/Xamarin.Forms.PancakeView/Xamarin.Forms.PancakeView.xr.xml">
+					<Candidate type="Path">
+						<Value>Xamarin.Forms.PancakeView\Xamarin.Forms.PancakeView.xr.xml</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Microsoft.UI.Xaml">
+					<ResourceMapSubtree name="DensityStyles">
+						<NamedResource name="Compact.xbf" uri="ms-resource://Xamarin.Forms.PancakeView/Files/Xamarin.Forms.PancakeView/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
+							<Candidate type="Path">
+								<Value>Xamarin.Forms.PancakeView\Microsoft.UI.Xaml\DensityStyles\Compact.xbf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

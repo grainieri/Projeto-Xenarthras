@@ -1,0 +1,1 @@
+C:\Dev\PCC\PCC\PCC.Windows\PCC.Windows.csproj;x86

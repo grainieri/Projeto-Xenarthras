@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.GerenciarAparicao">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Grid Margin="8" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Label Text="{Binding usu_ID}" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Start" Padding="10" FontSize="20"/>
+                    <Label Text="Gerenciar Aparição" Grid.Row="0" Grid.ColumnSpan="4" Grid.RowSpan="1" VerticalOptions="Center" HorizontalOptions="Center" FontSize="20"/>
+                    <Button Text="Ver Mapa" 
+                            Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" FontSize="13" Clicked="MostrarMapa"/>
+                    <Button Text="Ver foto" 
+                            Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" FontSize="13" Clicked="MostrarFoto"/>
+                    <Grid x:Name="GridMapa"  Grid.Row="2" Grid.ColumnSpan="4" Grid.RowSpan="5" Margin="0, 0, 0, 5"/>
+                    <Label Text="Data da Aparição: " FontSize="15"  Grid.Row="7" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="5, 5, 0, 0" Grid.Column="0" IsEnabled="false"/>
+                    <Entry Text="{Binding apa_Data}" 
+                           Grid.Row="7" Grid.ColumnSpan="3" Grid.RowSpan="1" Margin="-20, 0, 1, 0" Grid.Column="1" IsEnabled="false"/>
+                    <Label Text="Status do Animal: " FontSize="15"  Grid.Row="8" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="5, 5, 0, 0" Grid.Column="0" IsEnabled="false"/>
+                    <Entry Text="{Binding apa_Status}" 
+                           Grid.Row="8" Grid.ColumnSpan="3" Grid.RowSpan="1" Margin="-20, 0, 1, 0" Grid.Column="1" IsEnabled="false"/>
+                    <Label Text="Comentário: " FontSize="15"  Grid.Row="9" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="5, 5, 0, 0" Grid.Column="0" IsEnabled="false"/>
+                    <Editor FontSize="10" Text="{Binding apa_Comentario}" x:Name="edtComentario"
+                           Grid.Row="10" Grid.ColumnSpan="4" Grid.RowSpan="1" Margin="0, -20, 1, 0" Grid.Column="0" IsEnabled="true"/>
+                    <Label Text="Família: " FontSize="15"  Grid.Row="11" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0, 10, 0, 0" Grid.Column="0" IsEnabled="false"/>
+                    <Picker x:Name="Picker1" Grid.Row="12" Grid.ColumnSpan="4" Grid.RowSpan="1" Margin="5, -20, 1, 0" Grid.Column="0">
+                        <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Preguiça</x:String>
+                            <x:String>Tatu</x:String>
+                            <x:String>Tamanduá</x:String>
+                        </x:Array>
+                        </Picker.ItemsSource> 
+                    </Picker>
+                    <Label Text="Espécie: " FontSize="15"  Grid.Row="13" Grid.ColumnSpan="1" Grid.RowSpan="1" Margin="0, 0, 0, 10" Grid.Column="0" IsEnabled="false"/>
+                    <Picker x:Name="Picker2" Grid.Row="13" Grid.ColumnSpan="4" Grid.RowSpan="1" Margin="5, 20, 1, 0" Grid.Column="0">
+                        <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                                
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    <Button Text="Aprovar" x:Name="btnAprovar"
+                            Grid.Row="14" Grid.ColumnSpan="2" Grid.RowSpan="1" Grid.Column="0" Clicked="AprovarAparicao"/>
+                    <Button Text="Reprovar" x:Name="btnReprovar"
+                            Grid.Row="14" Grid.ColumnSpan="2" Grid.RowSpan="1" Grid.Column="2" Clicked="ReprovarAparicao"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

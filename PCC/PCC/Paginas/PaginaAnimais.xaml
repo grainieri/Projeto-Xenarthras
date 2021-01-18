@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dados="clr-namespace:PCC.Dados"
+            x:Class="PCC.Paginas.PaginaAnimais">
+    <ContentPage Title="Tamanduá">
+        <ContentPage.Resources>
+            <Style TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" 
+                                            Value="#f2fce1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ContentPage.Resources>
+        <CollectionView x:Name="clDados" Margin="20"
+                        ItemsSource="{x:Static dados:Tamandua.Tamanduas}"
+                        ItemTemplate="{StaticResource AnimalTemplate}"
+                        SelectionMode="None"/>
+
+    </ContentPage>
+    <ContentPage Title="Bicho-preguiça">
+        <ContentPage.Resources>
+            <Style TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" 
+                                            Value="#f2fce1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ContentPage.Resources>
+        <CollectionView Margin="20"
+                        ItemsSource="{x:Static dados:Preguica.Preguicas}"
+                        ItemTemplate="{StaticResource AnimalTemplate}"
+                        SelectionMode="None"/>
+    </ContentPage>
+    <ContentPage Title="Tatu">
+        <ContentPage.Resources>
+            <Style TargetType="Grid">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal" />
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" 
+                                            Value="#f2fce1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ContentPage.Resources>
+        <CollectionView Margin="20"
+                        ItemsSource="{x:Static dados:Tatu.Tatus}"
+                        ItemTemplate="{StaticResource AnimalTemplate}"
+                        SelectionMode="None"/>
+    </ContentPage>
+</TabbedPage>

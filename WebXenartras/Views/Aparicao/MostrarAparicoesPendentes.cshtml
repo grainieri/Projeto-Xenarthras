@@ -1,0 +1,42 @@
+﻿@model List<WebXenartras.Models.Aparicao>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Visualizar Aparições Pendentes</title>
+</head>
+<body>
+    <h4>Aparições</h4>
+    <hr />
+    <table cellpadding="10" cellspacing="5" border="0">
+        <tr>
+            <th>ID da Aparição</th>
+            <th>ID do Usuário</th>
+            <th>Foto</th>
+            <th>Data</th>
+            <th>Status</th>
+            <th>Espécie</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Comentário</th>
+            <th>Atualizar</th>
+        </tr>
+
+        @foreach (Aparicao aparicao in Model)
+        {
+    <tr>
+        <td>@aparicao.apa_ID</td>
+        <td>@aparicao.usu_ID</td>
+        <td><a asp-action="VerFoto" asp-route-id="@aparicao.apa_IMG">VerFoto</a></td>
+        <td>@aparicao.apa_Data</td>
+        <td>@aparicao.apa_Status</td>
+        <td>@aparicao.ani_Especie</td>
+        <td>@aparicao.apa_Latitude</td>
+        <td>@aparicao.apa_Longitude</td>
+        <td>@aparicao.apa_Comentario</td>
+        <td><a asp-action="AtualizarAparicao" asp-route-id="@aparicao.apa_ID">Atualizar</a></td>
+    </tr>
+        }
+    </table>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.Login">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Faça login aqui" Margin="10, 0" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" />
+            <Entry x:Name="usu_Email" Placeholder="Email" IsPassword="False" Margin="20, 10" />
+            <Entry x:Name="usu_Senha" Placeholder="Senha" IsPassword="True" Margin="20, 10" />
+            <Button Text="Login" BorderWidth="1" Margin="50,10" VerticalOptions="EndAndExpand" Clicked="FazerEntrada"/>
+            <Button Text="Cadastre-se" BorderWidth="1" Margin="50,-5" VerticalOptions="EndAndExpand" Clicked="AbrirCadastro" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

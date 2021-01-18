@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.AppBase.Inicio">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="O objetivo deste app é facilitar a coleta de dados referentes a ordem Xenartras. Ele foi desenvolvido por um grupo de alunos da ESAMC Sorocaba como projeto de TCC." HorizontalOptions="EndAndExpand" Padding="20,20,20,0"/>
+                <Label Text="A Ordem Xenarthra é uma ordem de mamíferos placentários composta por três formas viventes: tamanduás, tatus e preguiças arborícolas. É originária da América Sul e tem como distribuição geográfica o centro sul da América do Norte até o extremo sul da América do Sul. A Ordem possui trinta espécies viventes divididas em quatro famílias: Dasypodidae formada pelos tatus, com vinte e uma espécies, Myrmecophagidae (tamanduás) com quatro espécies, Bradypodidae (preguiças de rês dedos) com quatro espécies e Megalonychidae (preguiças de dois dedos) com duas espécies. As espécies Priodontes maximus (tatu-canastra), Tolypeutes tricinctus (tatu-bola da caatinga), Bradypus torquatus (preguiça de coleira) e Myrmecophaga tridactyla (tamanduábandeira) estão classificadas como vulneráveis pela IUCN (International Union of Conservation), sendo a preguiça de coleira e o tatu–bola da caatinga endêmicos do Brasil. A maioria dos xenartros possui  uma constituição cariotípica que varia de 48 até 65 cromossomos, exceto a espécie Tolypeutes matacus com 2n=38 cromossomos. Das trinta espécies conhecidas atualmente, apenas dezenove tiveram seu cariótipo descrito ou relatado. Os xenartros apresentam uma ampla gama de eventos cromossômicos, como fusão / fissão entre as espécies do gênero Cabassous, Choloepus e Bradypus e na família Myrmecophagidae, eventos de rearranjos cromossômico no gênero Dasypus e a combinação de ambos no gênero Chaetophractus. A presente tese está dividida em quatro capítulos: 1 revisão bibliográfica sobre os dados cromossômicos na Ordem Xenarthra; 2 descrição do cariótipo da espécie Cabassous unicinctus; 3 descrição uma nova espécie do gênero Tamandua; 4 análise da evolução cromossômica da Ordem Xenarthra, utilizando abordagem filogenética. "  VerticalOptions="Start" HorizontalOptions="EndAndExpand" Padding="20, 0, 20,0"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

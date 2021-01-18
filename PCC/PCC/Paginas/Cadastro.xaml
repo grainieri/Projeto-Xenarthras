@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.Cadastro">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Label Text="Faça seu cadastro aqui" Margin="10, 0" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" />
+            <Entry x:Name="txtEmail" IsPassword="False" Margin="20, 10" Placeholder="Email"/>
+            <Entry x:Name="txtSenha1" IsPassword="True" Margin="20, 10" Placeholder="Senha"/>
+            <Entry x:Name="txtSenha2" IsPassword="True" Margin="20, 10" Placeholder="Repita a senha"/>
+            <Button Text="Cadastrar" BorderWidth="1" Margin="50,10" VerticalOptions="EndAndExpand" Clicked="FazerCadastro"/>
+            <Label x:Name="TxtMensagens" HorizontalOptions="Center" Text="" TextColor="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

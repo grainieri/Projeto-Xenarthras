@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.Catalogo">
+    <ContentPage Title="Tamanduá">
+        <StackLayout x:Name="MapaTamandua" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+    </ContentPage>
+    
+    <ContentPage Title="Bicho-preguiça">
+        <StackLayout x:Name="MapaPreguica" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+    </ContentPage>
+    
+    <ContentPage Title="Tatu">
+        <StackLayout x:Name="MapaTatu" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+    </ContentPage>
+    
+</TabbedPage>

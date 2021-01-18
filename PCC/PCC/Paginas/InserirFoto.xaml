@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.InserirFoto">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label FontSize="20" Text="Tire uma foto do animal mostrando o máximo de referências sobre o local possível."
+                   Padding="10" HorizontalOptions="CenterAndExpand" VerticalOptions="Start"/>
+            <Image x:Name="Imagem" Aspect="AspectFill" Margin="10, 10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+            <Button x:Name="BtnFoto" VerticalOptions="End" Text="Tirar Foto" Padding="10"/>
+            <Button VerticalOptions="End" Text="Guardar foto" Padding="10" Clicked="AbrirInserirLocalização"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

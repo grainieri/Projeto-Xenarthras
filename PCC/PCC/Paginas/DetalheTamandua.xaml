@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PCC.Paginas.DetalheTamandua">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="20">
+                <Label Text="{Binding Nome}" 
+                   HorizontalOptions="Center" 
+                   Style="{DynamicResource TitleStyle}" />
+                <Label Text="{Binding Localizacao}" 
+                   FontAttributes="Italic" 
+                   HorizontalOptions="Center" />
+                <Image Source="{Binding ImagemUrl}" 
+                   HeightRequest="200" 
+                   WidthRequest="200" 
+                   HorizontalOptions="CenterAndExpand" />
+                <Label Text="{Binding Descricao}" 
+                   Style="{DynamicResource BodyStyle}" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
